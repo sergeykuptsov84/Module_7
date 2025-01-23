@@ -28,7 +28,7 @@ info = [
     'Спасибо!\n',
     ]
 
-result = custom_write('text_7_2', *info)
+result = custom_write('text_7_2.txt', *info)
 for elem in result.items():
     print(elem)
 
